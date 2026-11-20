@@ -1420,8 +1420,7 @@ a.meta-item:hover {
 }
 
 @media (max-width: 860px) {
-  .nav-links,
-  .nav-resume {
+  .nav-links {
     display: none;
   }
 

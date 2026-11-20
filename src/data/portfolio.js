@@ -10,7 +10,6 @@ export const profile = {
   email: 'rajeevsaini1201@gmail.com',
   linkedin: 'https://www.linkedin.com/in/rajeevsaini1201',
   linkedinLabel: 'linkedin.com/in/rajeevsaini1201',
-  resume: '/Rajeev_Saini_Resume.pdf',
   availability: 'Open to backend & AI engineering roles',
 }
 

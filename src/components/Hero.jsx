@@ -1,6 +1,6 @@
 import { marquee, profile, stats } from '../data/portfolio.js'
 import Reveal from './Reveal.jsx'
-import { ArrowRight, Download, Linkedin, Mail, MapPin } from './Icons.jsx'
+import { ArrowRight, Linkedin, Mail, MapPin } from './Icons.jsx'
 
 export default function Hero() {
   return (
@@ -32,10 +32,6 @@ export default function Hero() {
             <a className="btn btn-primary" href="#projects">
               View projects
               <ArrowRight width={18} height={18} />
-            </a>
-            <a className="btn btn-ghost" href={profile.resume} download>
-              <Download width={18} height={18} />
-              Download résumé
             </a>
           </Reveal>
 

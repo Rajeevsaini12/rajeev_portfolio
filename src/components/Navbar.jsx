@@ -64,9 +64,6 @@ export default function Navbar() {
         </ul>
 
         <div className="nav-actions">
-          <a className="btn btn-ghost btn-sm nav-resume" href={profile.resume} download>
-            Resume
-          </a>
           <button
             type="button"
             className="nav-toggle"
@@ -90,14 +87,6 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a
-            className="btn btn-primary btn-block"
-            href={profile.resume}
-            download
-            onClick={() => setOpen(false)}
-          >
-            Download résumé
-          </a>
         </div>
       )}
     </header>

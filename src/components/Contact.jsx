@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { profile } from '../data/portfolio.js'
 import Reveal from './Reveal.jsx'
-import { ArrowRight, Check, Copy, Linkedin, Mail } from './Icons.jsx'
+import { Check, Copy, Linkedin, Mail } from './Icons.jsx'
 
 export default function Contact() {
   const [copied, setCopied] = useState(false)
@@ -48,10 +48,6 @@ export default function Contact() {
             <a href={profile.linkedin} target="_blank" rel="noreferrer">
               <Linkedin width={16} height={16} />
               {profile.linkedinLabel}
-            </a>
-            <a href={profile.resume} download>
-              <ArrowRight width={16} height={16} />
-              Résumé (PDF)
             </a>
           </div>
         </Reveal>

@@ -1,7 +1,7 @@
-import { education, profile } from '../data/portfolio.js'
+import { education } from '../data/portfolio.js'
 import Reveal from './Reveal.jsx'
 import SectionHead from './SectionHead.jsx'
-import { ArrowRight, GraduationCap, Sparkles } from './Icons.jsx'
+import { GraduationCap, Sparkles } from './Icons.jsx'
 
 export default function Education() {
   return (
@@ -33,10 +33,6 @@ export default function Education() {
               building on a backend foundation of Python, Django and distributed task
               queues.
             </p>
-            <a className="link-arrow" href={profile.resume} download>
-              Open full résumé
-              <ArrowRight width={16} height={16} />
-            </a>
           </Reveal>
         </div>
       </div>

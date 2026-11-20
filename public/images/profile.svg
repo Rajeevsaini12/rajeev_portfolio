@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Rajeev Saini monogram portrait card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16132b"/>
+      <stop offset="0.55" stop-color="#0b0a15"/>
+      <stop offset="1" stop-color="#07070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.45" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.34" r="0.62">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#5b3fd6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <rect width="600" height="750" fill="url(#grid)"/>
+  <circle cx="300" cy="300" r="265" fill="url(#glow)"/>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke="url(#accent)" opacity="0.5">
+    <circle cx="300" cy="322" r="228" stroke-width="1.1"/>
+    <circle cx="300" cy="322" r="176" stroke-width="1" stroke-dasharray="5 11" opacity="0.8"/>
+    <circle cx="300" cy="322" r="126" stroke-width="1.2" opacity="0.65"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.4" fill="none">
+    <path d="M52 92V60h34"/>
+    <path d="M548 92V60h-34"/>
+    <path d="M52 658v32h34"/>
+    <path d="M548 658v32h-34"/>
+  </g>
+
+  <!-- monogram -->
+  <g>
+    <circle cx="300" cy="322" r="96" fill="#0b0a16" stroke="url(#accent)" stroke-width="1.6" opacity="0.95"/>
+    <circle cx="300" cy="322" r="96" fill="none" stroke="#8b5cf6" stroke-opacity="0.5" stroke-width="8" filter="url(#soft)"/>
+    <text x="300" y="322" text-anchor="middle" dominant-baseline="central"
+          font-family="Sora, Inter, Segoe UI, sans-serif" font-size="118" font-weight="700"
+          fill="url(#accent)" letter-spacing="-4">RS</text>
+  </g>
+
+  <!-- orbit nodes -->
+  <g>
+    <circle cx="300" cy="94" r="5.5" fill="#22d3ee"/>
+    <circle cx="300" cy="94" r="11" fill="#22d3ee" opacity="0.22"/>
+    <circle cx="474" cy="410" r="4.5" fill="#c4b5fd"/>
+    <circle cx="126" cy="420" r="4" fill="#8b5cf6"/>
+  </g>
+
+  <!-- floating tags -->
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="13" letter-spacing="1.6">
+    <rect x="88" y="176" width="92" height="30" rx="15" fill="#0e0d1a" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="134" y="196" text-anchor="middle" fill="#c7c2ff">DJANGO</text>
+    <rect x="418" y="216" width="96" height="30" rx="15" fill="#0e0d1a" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="466" y="236" text-anchor="middle" fill="#9feaf5">FASTAPI</text>
+    <rect x="96" y="468" width="104" height="30" rx="15" fill="#0e0d1a" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="148" y="488" text-anchor="middle" fill="#c7c2ff">PYTHON</text>
+    <rect x="408" y="478" width="78" height="30" rx="15" fill="#0e0d1a" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="447" y="498" text-anchor="middle" fill="#a7f3d4">GENAI</text>
+  </g>
+
+  <!-- baseline label -->
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <line x1="150" y1="616" x2="450" y2="616" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="300" y="646" text-anchor="middle" fill="#b9b2ff" font-size="12" letter-spacing="4.4">PYTHON · BACKEND · AI</text>
+    <text x="300" y="676" text-anchor="middle" fill="#6f6b87" font-size="11" letter-spacing="3.2">INDORE, INDIA</text>
+  </g>
+</svg>

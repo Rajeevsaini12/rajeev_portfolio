@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="Live inventory dashboard illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a24"/>
+      <stop offset="1" stop-color="#08070f"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="g" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0v34" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect width="800" height="520" fill="url(#g)"/>
+  <ellipse cx="380" cy="270" rx="340" ry="230" fill="url(#halo)"/>
+
+  <!-- panel -->
+  <rect x="70" y="86" width="660" height="336" rx="22" fill="#0a0a14" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <!-- header -->
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <text x="100" y="128" font-size="15" letter-spacing="3.2" fill="#c9c5dd">PRODASH</text>
+    <text x="100" y="148" font-size="11" letter-spacing="1.6" fill="#6f6b87">LIVE LPG FILLING MONITOR</text>
+    <rect x="520" y="108" width="180" height="34" rx="17" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-opacity="0.3"/>
+    <circle cx="542" cy="125" r="4" fill="#34d399"/>
+    <text x="556" y="130" font-size="11" letter-spacing="1.4" fill="#9ff0cd">STREAMING</text>
+  </g>
+  <line x1="70" y1="172" x2="730" y2="172" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- kpi cards -->
+  <g font-family="Inter, Segoe UI, sans-serif">
+    <rect x="100" y="192" width="150" height="62" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="116" y="216" font-size="10" letter-spacing="1.4" fill="#6f6b87">14.2 KG</text>
+    <text x="116" y="240" font-size="20" font-family="Sora, Inter, sans-serif" fill="#e9e6f7">1,284</text>
+
+    <rect x="264" y="192" width="150" height="62" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="280" y="216" font-size="10" letter-spacing="1.4" fill="#6f6b87">19 KG</text>
+    <text x="280" y="240" font-size="20" font-family="Sora, Inter, sans-serif" fill="#e9e6f7">742</text>
+
+    <rect x="428" y="192" width="272" height="62" rx="12" fill="#22d3ee" fill-opacity="0.06" stroke="#22d3ee" stroke-opacity="0.22"/>
+    <text x="444" y="216" font-size="10" letter-spacing="1.4" fill="#6f6b87">ALL PLANTS · 1 H</text>
+    <text x="444" y="240" font-size="20" font-family="Sora, Inter, sans-serif" fill="#9feaf5">98.4% uptime</text>
+  </g>
+
+  <!-- chart grid -->
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="100" y1="286" x2="700" y2="286"/>
+    <line x1="100" y1="326" x2="700" y2="326"/>
+    <line x1="100" y1="366" x2="700" y2="366"/>
+    <line x1="100" y1="396" x2="700" y2="396"/>
+  </g>
+
+  <!-- bars -->
+  <g>
+    <rect x="108" y="352" width="22" height="44" rx="6" fill="url(#bar2)"/>
+    <rect x="146" y="330" width="22" height="66" rx="6" fill="url(#bar)"/>
+    <rect x="184" y="344" width="22" height="52" rx="6" fill="url(#bar2)"/>
+    <rect x="222" y="312" width="22" height="84" rx="6" fill="url(#bar)"/>
+    <rect x="260" y="336" width="22" height="60" rx="6" fill="url(#bar2)"/>
+    <rect x="298" y="298" width="22" height="98" rx="6" fill="url(#bar)"/>
+    <rect x="336" y="322" width="22" height="74" rx="6" fill="url(#bar2)"/>
+    <rect x="374" y="286" width="22" height="110" rx="6" fill="url(#bar)"/>
+    <rect x="412" y="316" width="22" height="80" rx="6" fill="url(#bar2)"/>
+    <rect x="450" y="294" width="22" height="102" rx="6" fill="url(#bar)"/>
+    <rect x="488" y="330" width="22" height="66" rx="6" fill="url(#bar2)"/>
+    <rect x="526" y="302" width="22" height="94" rx="6" fill="url(#bar)"/>
+    <rect x="564" y="340" width="22" height="56" rx="6" fill="url(#bar2)"/>
+    <rect x="602" y="280" width="22" height="116" rx="6" fill="url(#bar)"/>
+    <rect x="640" y="318" width="22" height="78" rx="6" fill="url(#bar2)"/>
+  </g>
+
+  <!-- trend line -->
+  <path d="M119 356 157 336 195 348 233 318 271 340 309 304 347 328 385 292 423 320 461 300 499 334 537 308 575 344 613 286 651 322"
+        fill="none" stroke="#a7f3d4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="651" cy="322" r="5" fill="#a7f3d4"/>
+  <circle cx="651" cy="322" r="11" fill="#a7f3d4" opacity="0.18"/>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#6f6b87" letter-spacing="1">
+    <text x="108" y="412">00:00</text>
+    <text x="298" y="412">06:00</text>
+    <text x="490" y="412">12:00</text>
+    <text x="648" y="412">18:00</text>
+  </g>
+
+  <!-- cylinder icon -->
+  <g transform="translate(704 110)" opacity="0.9">
+    <rect x="0" y="4" width="30" height="46" rx="12" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <rect x="10" y="-4" width="10" height="8" rx="3" fill="#22d3ee" fill-opacity="0.4"/>
+    <line x1="6" y1="22" x2="24" y2="22" stroke="#9feaf5" stroke-opacity="0.6"/>
+    <line x1="6" y1="32" x2="24" y2="32" stroke="#9feaf5" stroke-opacity="0.3"/>
+  </g>
+
+  <text x="70" y="464" font-family="Sora, Inter, sans-serif" font-size="14" letter-spacing="3.4" fill="#8b87a3">REACT · C# · SAP</text>
+  <text x="730" y="464" text-anchor="end" font-family="Sora, Inter, sans-serif" font-size="14" letter-spacing="3.4" fill="#8b87a3">03 / LIVE DATA</text>
+</svg>

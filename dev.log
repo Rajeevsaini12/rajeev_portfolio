@@ -1,0 +1,45 @@
+
+> rajeev-saini-portfolio@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v8.3.8[39m  [2mready in [0m[1m365[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m6:33:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:10:30 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Contact.jsx[22m
+[2m7:10:31 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Education.jsx, /src/components/Contact.jsx, /src/components/About.jsx, /src/components/Experience.jsx, /src/components/Footer.jsx, /src/components/Navbar.jsx, /src/components/Projects.jsx, /src/components/Hero.jsx, /src/components/Skills.jsx[22m
+[2m7:14:49 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[33m
+Unable to parse HTML; parse5 error code unexpected-character-in-attribute-name
+ at D:/Portfolio/index.html:13:5
+11 |      />
+12 |      <title>Rajeev Saini — Python Backend & AI Engineer</title
+13 |      <link rel="preconnect" href="https://fonts.googleapis.com" />
+   |      ^
+14 |      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+15 |      <link[39m
+[33m
+Unable to parse HTML; parse5 error code end-tag-with-attributes
+ at D:/Portfolio/index.html:13:65
+11 |      />
+12 |      <title>Rajeev Saini — Python Backend & AI Engineer</title
+13 |      <link rel="preconnect" href="https://fonts.googleapis.com" />
+   |                                                                  ^
+14 |      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+15 |      <link[39m
+[33m
+Unable to parse HTML; parse5 error code end-tag-with-trailing-solidus
+ at D:/Portfolio/index.html:13:65
+11 |      />
+12 |      <title>Rajeev Saini — Python Backend & AI Engineer</title
+13 |      <link rel="preconnect" href="https://fonts.googleapis.com" />
+   |                                                                  ^
+14 |      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+15 |      <link[39m
+[2m7:15:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m7:15:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m7:26:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Education.jsx, /src/components/Contact.jsx, /src/components/About.jsx, /src/components/Experience.jsx, /src/components/Footer.jsx, /src/components/Navbar.jsx, /src/components/Projects.jsx, /src/components/Hero.jsx, /src/components/Skills.jsx[22m
+[2m7:26:25 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m7:26:26 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Projects.jsx[22m
+[2m7:26:41 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m

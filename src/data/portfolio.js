@@ -5,7 +5,7 @@ export const profile = {
   role: 'Python Backend Developer · AI / GenAI Engineer',
   headline: 'I build backend systems that stay fast under real load.',
   intro:
-    'Software engineer with 1 year 4 months of experience building scalable APIs with Python, Django and FastAPI — plus real-time AI features like WebSocket transcription, ML-driven proctoring and Celery-powered pipelines.',
+    'Software engineer with 1 year 8 months of experience building scalable APIs with Python, Django and FastAPI — plus real-time AI features like WebSocket transcription, ML-driven proctoring and Celery-powered pipelines.',
   location: 'Indore, India',
   email: 'rajeevsaini1201@gmail.com',
   linkedin: 'https://www.linkedin.com/in/rajeevsaini1201',
@@ -15,7 +15,7 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '1.4+', label: 'Years of experience' },
+  { value: '1.8+', label: 'Years of experience' },
   { value: '3', label: 'Production builds' },
   { value: '8.49', label: 'B.Tech CGPA' },
 ]
